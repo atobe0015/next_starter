@@ -7,7 +7,10 @@
     "build": "next build",
     "build:aspida": "aspida",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cy:install": "cypress install",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open"
   },
   "dependencies": {
     "@aspida/axios": "^1.11.0",
@@ -18,10 +21,12 @@
     "sass": "^1.54.5"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^8.0.3",
     "@types/node": "18.7.13",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
     "autoprefixer": "^10.4.8",
+    "cypress": "^10.6.0",
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
     "postcss": "^8.4.16",
