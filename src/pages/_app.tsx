@@ -1,7 +1,7 @@
-import "@/assets/styles/globals.scss";
-import { AppProps } from "next/app";
+import '@/assets/styles/globals.css';
+import {AppProps} from 'next/app';
 
-const App = ({ Component, pageProps }: AppProps) => {
+const App = ({Component, pageProps}: AppProps) => {
   return (
     <div>
       <Component {...pageProps} />
