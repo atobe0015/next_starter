@@ -1,0 +1,9 @@
+**/node_modules/*
+**/out/*
+**/.next/*
+package.json
+package-lock.json
+*.config.js
+.eslintrc.js
+/public/mockServiceWorker.js
+/src/types
